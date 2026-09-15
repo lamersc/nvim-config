@@ -417,6 +417,11 @@ do
     },
   }
 
+  vim.pack.add { gh 'nvim-tree/nvim-web-devicons' }
+
+  vim.pack.add { gh 'nvim-tree/nvim-tree.lua' }
+  require("nvim-tree").setup {}
+
   -- [[ Colorscheme ]]
   -- You can easily change to a different colorscheme.
   -- Change the name of the colorscheme plugin below, and then
